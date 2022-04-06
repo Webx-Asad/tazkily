@@ -1,0 +1,201 @@
+/* -----------------menu bar responsive css----------------  */
+@media (max-width: 768px) {
+
+    .header-area .menu-bar,
+    .header-area .close-menu {
+        display: block;
+    }
+
+    .header-area .close-menu {
+        display: none;
+    }
+
+    .header-area .menu-area {
+        display: none;
+        position: static;
+        background: #212529;
+        position: absolute;
+        top: 57px;
+        width: 100%;
+        left: 0px;
+        padding: 40px 20px 50px 20px;
+    }
+
+    .header-area .menu-area ul li {
+        display: block;
+    }
+
+    .header-area .menu-area ul li .submenu {
+        position: static;
+        background: #3c3c3c;
+    }
+
+    .main-menu ul li a {
+        font-size: 18px;
+        padding: 8px 20px;
+        margin-bottom: 5px !important;
+    }
+
+}
+
+
+
+/* -----------------------------------------
+-------------All responsive here-------- */
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 570px) {}
+
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) {
+
+
+    .phone-relative {
+        position: relative;
+    }
+
+    section.banner-aera .hero-img {
+        width: 90%;
+        position: inherit;
+        right: -12px !important;
+    }
+
+    .banner-inner {
+        height: inherit;
+        padding: 120px 0;
+    }
+
+    section.banner-aera h1 {
+        font-size: 34px;
+    }
+
+    section.banner-aera p {
+        font-size: 16px;
+        width: 80%;
+        margin-bottom: 40px;
+    }
+
+    .banner-image {
+        text-align: right;
+        padding-top: 50px;
+    }
+
+    section.app-feature .row.reverse {
+        flex-direction: column-reverse;
+    }
+
+    section.app-feature img {
+        margin-top: 50px;
+    }
+
+    .section-title h2 {
+        font-size: 28px;
+        line-height: 33px;
+    }
+
+    .mb-hide {
+        display: none;
+    }
+
+    section.testimonials {
+        background-size: cover;
+        background-position: top center;
+        padding: 100px 0 !important;
+    }
+
+    .owl-carousel .owl-stage-outer {
+        width: 100%;
+        margin-right: inherit;
+        margin-left: inherit;
+        overflow: hidden;
+    }
+
+    .owl-carousel .owl-item {
+        width: 336px !important;
+    }
+
+    .testimonials-slider .owl-stage {
+        width: 4152px !important;
+    }
+
+    section.testimonials p {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+
+    .single-footer {
+        margin-bottom: 35px;
+    }
+
+    nav.footer-nav ul li a {
+        font-size: 16px;
+    }
+
+    footer.footer {
+        padding: 50px 0;
+    }
+
+    footer.footer .footer-logo {
+        width: 153px;
+    }
+
+    .help {
+        justify-content: center !important;
+        margin-top: 10px;
+    }
+
+    footer.footer span {
+        font-size: 16px;
+    }
+
+    .menu-bars {
+        display: block;
+        font-size: 28px;
+        position: absolute;
+        top: -5px;
+        right: 10px;
+    }
+
+    .mb-center {
+        justify-content: center !important;
+    }
+
+    .header-action .t-outline {
+        padding: 10px 16px 10px 16px;
+        font-size: 12px;
+        margin-top: 35px;
+    }
+
+    .single-blog h4 {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+
+    .single-blog p {
+        font-size: 15px;
+    }
+
+    .single-blog p {
+        font-size: 13px;
+    }
+
+    .post-date p span {
+        font-size: 12px;
+    }
+
+    .single-blog {
+        margin-bottom: 50px;
+    }
+
+
+}
+
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 992px) {}
+
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1200px) {}
